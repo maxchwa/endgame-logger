@@ -1,0 +1,11 @@
+### GET request to example server
+POST http://localhost:8080/char
+Content-Type: application/json
+
+{
+  "name": "The Dahlia",
+  "eidolon": 0,
+  "sig": 0,
+  "role": "support"
+}
+###

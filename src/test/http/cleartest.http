@@ -1,0 +1,21 @@
+### GET request to example server
+POST http://localhost:8080/clear
+Content-Type: application/json
+
+{
+  "endgame": "AS",
+  "version": 3.5,
+  "side": 2,
+  "stars": 3,
+  "score": 3657,
+  "zeroCycle": false,
+  "notes": "",
+  "members": [
+    { "name": "Black Swan", "eidolon": 0, "signature": 0 },
+    { "name": "Kafka", "eidolon": 0, "signature": 0 },
+    { "name": "Tribbie", "eidolon": 1, "signature": 0 },
+    { "name": "Ruan Mei", "eidolon": 0, "signature": 1 }
+  ]
+}
+
+###

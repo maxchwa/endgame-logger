@@ -1,0 +1,17 @@
+### Get all clears
+GET http://localhost:8080/api/clear
+
+###
+
+### Get clear by ID
+GET http://localhost:8080/api/clear/1
+
+###
+
+### Get clear by composite key
+GET http://localhost:8080/api/clear/MoC/3.1/1
+
+###
+
+### Delete clear
+DELETE http://localhost:8080/api/clear/MoC/3.1/1

@@ -1,0 +1,17 @@
+### Get character info
+GET http://localhost:8080/api/character/Evernight
+
+###
+
+### Character clears in MoC
+GET http://localhost:8080/api/character/Evernight/clears?endgame=PF
+
+###
+
+### Character average score in MoC
+GET http://localhost:8080/api/character/Evernight/average?endgame=PF
+
+###
+
+### Character top partners
+GET http://localhost:8080/api/character/Evernight/top-partners?limit=5

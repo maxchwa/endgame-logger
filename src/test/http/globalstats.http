@@ -1,0 +1,1 @@
+GET http://localhost:8080/global-stats?topN=3&role=Support&includeZeroCycles=true

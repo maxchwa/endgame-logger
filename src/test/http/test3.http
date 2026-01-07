@@ -1,0 +1,37 @@
+### All MoC clears
+GET http://localhost:8080/api/stats/endgame/clears?endgame=MoC
+
+###
+
+### MoC clears for major version 3
+GET http://localhost:8080/api/stats/endgame/clears?endgame=MoC&version=3
+
+###
+
+### Average score (MoC)
+GET http://localhost:8080/api/stats/endgame/average-score?endgame=MoC
+
+###
+
+### Top clears by score
+GET http://localhost:8080/api/stats/endgame/top-clears?endgame=MoC
+
+###
+
+### Top versions by total score
+GET http://localhost:8080/api/stats/endgame/top-versions?endgame=PF
+
+###
+
+### Top characters in PF
+GET http://localhost:8080/api/stats/endgame/top-characters?endgame=PF
+
+###
+
+### MoC zero-cycle characters
+GET http://localhost:8080/api/stats/endgame/as/zero-cycles
+
+###
+
+### PF full-score characters
+GET http://localhost:8080/api/stats/endgame/pf/full-score

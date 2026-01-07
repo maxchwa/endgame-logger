@@ -5,7 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "clears")
+@Table(
+        name = "clears",
+        uniqueConstraints = @UniqueConstraint(
+                columnNames = {"endgame", "version", "side"}
+        )
+)
 public class Clear {
 
     @Id
@@ -81,6 +86,7 @@ public class Clear {
     public String getEndgame() {
         return endgame;
     }
+
     public void setEndgame(String endgame) {
         this.endgame = endgame;
     }

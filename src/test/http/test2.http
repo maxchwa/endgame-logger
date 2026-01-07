@@ -1,0 +1,17 @@
+### Global top characters (top 3)
+GET http://localhost:8080/api/stats/global/top-characters
+
+###
+
+### Global top characters (top 5)
+GET http://localhost:8080/api/stats/global/top-characters?topN=5
+
+###
+
+### Global top characters by role
+GET http://localhost:8080/api/stats/global/top-characters/by-role?role=DPS
+
+###
+
+### Global zero-cycle clears
+GET http://localhost:8080/api/stats/global/zero-cycles

@@ -1,0 +1,2 @@
+### GET request to example server
+GET http://localhost:8080/endgame-stats?endgame=PF&version=4&topN=5&role=Support
